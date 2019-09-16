@@ -5,6 +5,7 @@ if(isset($_POST['submit'])){
 
 /* Define username and associated password array */
 $logins = array('start' => 'ng','uname1' => 'passw1','uname2' => 'passw2');
+$logins = array('hng' => 'two','uname1' => 'passw1','uname2' => 'passw2');
 
 /* Check and assign submitted Username and Password to new variable */
 $uname = isset($_POST['uname']) ? $_POST['uname'] : '';
@@ -15,7 +16,7 @@ if (isset($logins[$uname]) && $logins[$uname] == $passw){
 	
 /* Success: Set session variables and redirect to Protected page  */
 $_SESSION['udata']['uname']=$logins[$uname];
-header("location:index1.html");
+header("location:index.php");
 exit;
 } else {
 /*Unsuccessful attempt: Set error message */$msg="<span style='color:red'>Invalid Login, Please try again</span>";
