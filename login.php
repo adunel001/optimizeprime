@@ -99,13 +99,13 @@ exit;
 
                     <tr>
                         <td>
-                            <input type="password" id="pass" name="password" placeholder="Password" minlength="8" required>
+                            <input type="text" id="pass" name="password" placeholder="Password" minlength="8" required>
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            <input type="password" id="pass" name="password" placeholder="Repeat Password" minlength="8" required>
+                            <input type="text" id="pass" name="password" placeholder="Repeat Password" minlength="8" required>
                         </td>
                     </tr>
 
