@@ -99,19 +99,19 @@ exit;
 
                     <tr>
                         <td>
-                            <input type="password" placeholder="Password" required>
+                            <input type="text" id="pass" name="password" placeholder="Password" minlength="8" required>
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            <input type="password" placeholder="Repeat Password" required>
+                            <input type="text" id="pass" name="password" placeholder="Repeat Password" minlength="8" required>
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            <input type="email" placeholder="Email Address" required>
+                            <input type="text" placeholder="Email Address" required>
                         </td>
                     </tr>
 
