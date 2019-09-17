@@ -84,8 +84,8 @@ body{
 	margin-left: 200px;
 }
 .p-contact form input[type="submit"]:hover {
-	background: #fff;
-	color:#B7233B;
+	background: smokewhite;
+	color:black;
 	border-bottom: 2px solid #B7233B;
 }
 #rem_me{
