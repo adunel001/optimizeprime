@@ -29,6 +29,8 @@ body{
 }
 .container{
     text-align: center;
+	font-type: bold;
+	
 
 }
 .p-home{
@@ -66,10 +68,10 @@ body{
 	padding: 8px;
 	margin-top: 10px;
 	border-bottom: 2px solid #fff;
-	background-color: rgba(159, 165, 188, 0.3);
+	background-color: smokewhite;
 	border-top-right-radius:5px;
 	border-top-left-radius: 5px;
-	color: #fff;
+	color: black;
 	font-weight: bold;
 }
 .p-contact form input[type="text"]{
