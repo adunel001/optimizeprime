@@ -1,8 +1,8 @@
 First step was to design the GUI
-Then convert the GUI to an HTML form using CSS 
-Next we need to write a PHP script to check the login authentication for login into the website called the Vacation lounge. 
-The scripts are placed at the top of the pages, first, on the Index.php so that a guest is directed to the login page
-Then script for the authentication is place at the top of the form such that the form action is pointed to thesame file "login.php".
+Then convert the GUI design to an HTML form using CSS 
+Next we write a PHP script to check the login authentication for login into the website called the Vacation Lounge. 
+The php scripts are placed at the top of the pages, first, on the Index.php so that the guest is directed to the login page
+Then script for the authentication is place at the top of the form such that the "form action" is pointed to thesame file "login.php".
 
 In the script, Since we are not using a Database, a User is created and stored as a variable to be able to access the page.
 
