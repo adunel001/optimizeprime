@@ -16,7 +16,7 @@ exit;
 <link rel="icon" href="img/logo.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
 <title>The Vacation Lounge</title>
-<link rel="stylesheet" href="./cludes/style.css">
+<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
@@ -56,17 +56,17 @@ exit;
 <section id="boxes">
   <div class="container">
     <div class="box">
-<img src="./images/css3.png">
+<img src="./image/css3.png">
 <h3>Food and Drink</h3>
 <p>Food and Drinks for everyone on the dance floor with loads of chopables</p>
   </div>
   <div class="box">
-<img src="./images/html5.png">
+<img src="./image/html5.png">
 <h3>Family Games</h3>
 <p>Fun time for Parents and children</p>
 </div>
 <div class="box">
-<img src="./images/webdz.png">
+<img src="./image/webdz.png">
 <h3>Dance! Dance!! Dance!!!</h3>
 <p>Featuring the best DJs to get you to Dance all you can until the break of dawn.</p>
 </div>

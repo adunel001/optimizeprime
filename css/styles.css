@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+@font-face{
+	font-family: "stop-d";
+	src:url(../fonts/STOPN.TTF);
+}
+@font-face{
+	font-family: "george";
+	src:url(../fonts/DUT766I.TTF);
+}
+@font-face{
+	font-family: "tozls";
+	src:url(../fonts/ALLURA-REGULAR.OTF);
+}
+body{
+	margin: 0;
+	width: auto;
+	height: auto;
+	background-image: url(../image/7.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.container{
+    text-align: center;
+
+}
+.p-home{
+	width: 100%;
+	height: 860px;
+
+}
+.p-contact h1{
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	font-family: "tozls";
+	border-bottom: 2px solid #973F0E;
+	color: #fff;
+	text-shadow: 4px 2px 2px #000;
+}
+.p-contact form{
+    display: inline-block;
+	background-color: rgba(159, 165, 188, 0.3);
+	width: 600px;
+	padding:50px 100px 70px 110px;
+}
+#check{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-top: 14px;
+}
+.p-contact form input{
+	width: 150px;
+	height: 45px;
+	font-size: 20px;
+	padding: 8px;
+	margin-top: 10px;
+	border-bottom: 2px solid #fff;
+	background-color: rgba(159, 165, 188, 0.3);
+	border-top-right-radius:5px;
+	border-top-left-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+}
+.p-contact form input[type="text"]{
+	width: 360px;
+}
+
+.p-contact form input[type="submit"]{
+	background-color:#B7233B;
+	color:#fff;
+	cursor:pointer;
+  	transition: background 0.3s ease-in-out;
+	margin-left: 200px;
+}
+.p-contact form input[type="submit"]:hover {
+	background: #fff;
+	color:#B7233B;
+	border-bottom: 2px solid #B7233B;
+}
+#rem_me{
+	float:left;
+	margin-top: 10px;
+}
+#forgotpass{
+	float: left;
+	margin-top: 50px;
+	font-size: small;
+}
+#forgotpass a, #reg2 a{
+	color: #000000;
+}
+#para{
+	float: right;
+	margin-right: 5px;
+	font-size: small;
+	margin-top: 50px;
+
+}
+.red, #reg{
+	color:#B7233B;
+}
