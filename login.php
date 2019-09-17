@@ -69,7 +69,7 @@ exit;
                     </tr>
                     <tr>
                         <td>
-                            <input name="submit" type="submit" id="submit" placeholder="Send" value="Login">
+                            <input name="submit" type="submit" id="submit" placeholder="Send" value="Sign In">
                         </td>
                     </tr>
                     <tr>
@@ -99,25 +99,25 @@ exit;
 
                     <tr>
                         <td>
-                            <input type="text" placeholder="Password" required>
+                            <input type="password" placeholder="Password" required>
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            <input type="text" placeholder="Repeat Password" required>
+                            <input type="password" placeholder="Repeat Password" required>
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            <input type="text" placeholder="Email Address" required>
+                            <input type="email" placeholder="Email Address" required>
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            <input type="submit" placeholder="Sign Up" value="Send">
+                            <input type="submit" placeholder="Sign Up" value="Sign Up">
                         </td>
                     </tr>
 
