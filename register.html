@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <center>
+        <div>
+                <form action="#" style="max-width:450px;" id="main" method="POST">
+                    <div>
+                        <h3>MEMBERSHIP SIGN UP</h3>
+                    </div>
+                    <div>
+                        <input class="fill" type="text" name="username" placeholder="USERNAME" maxlength="20" required><br>
+                        <input class="fill" type="email" name="email" placeholder="EMAIL" required><br>
+                        <input class="fill" type="password" name="password" placeholder="PASSWORD" required minlength="8" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+                        <input class="fill" type="password" name="password" placeholder="CONFIRM PASSWORD" required minlength="8" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must match"><br>              
+                    </div>
+        
+                    <div>
+                        <input type="submit" name="submit" value="SIGN UP" id="submit">
+                    </div>
+
+                    <div>
+                        Already a member? 
+                        <a href="index.html"><b>Log In</b></a>
+                    </div>
+                </form>
+            </div>
+   </center>
+</body>
+</html>
