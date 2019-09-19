@@ -1,0 +1,127 @@
+body{
+font: 15px/1.5 Arial, Helvetia, sans-serif;
+padding: 0;
+margin: 0;
+background-color: #f4f4f4;
+}
+
+/* Global */
+.container{
+width:80%;
+margin: auto;
+overflow: hidden;
+}
+ul{
+padding: 0;
+margin:0;
+}
+.button1{
+	background-color: #A2E6FD;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 30px;
+	font-weight: bold;
+	color: #ffffff;
+}
+/* Header **/
+header{
+background-color: 35424a;
+color: #ffffff;
+padding-top:30px;
+min-height:70px;
+border-bottom: #A2E6FD 3px solid;
+}
+
+header a{
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 14px;
+}
+
+header a:hover{
+	color: #A2E6FD;
+}
+
+header li{
+float: left;
+display: inline;
+padding: 0 20px 0 20px;
+}
+
+header #LogoTag{
+float: left;
+}
+
+header #LogoTag h1{
+margin: 0;
+}
+
+header nav{
+float: right;
+margin-top:10px;
+}
+
+header .highlight, header .current a{
+	color: #A2E6FD;
+	font-weight: bold;
+}
+
+/* Banner */
+
+#banner{
+min-height:400px;
+background:url('../imgs/funtainment.jpg') no-repeat;
+color:#f4f4f4;
+text-align: center;
+}
+
+#banner h1{
+font-size:40px;
+font-weight:bold;
+margin-top:200px;
+margin-bottom:10px;
+}
+
+/* Newsletter */
+#newsletter{
+  background-color:#35424a;
+  padding:5px;
+  color:#ffffff;
+}
+#newsletter h1{float:left;}
+#newsletter form{float:right; margin-top:20px;}
+#newsletter input[type="email"]{
+  padding:4px;
+  height:30px;
+  width:250px;
+}
+
+ /* Boxes */
+
+ #boxes {float:left;}
+   #boxes .box{
+     width:30%;
+     float:left;
+     padding:10px;
+     text-align:center;
+   }
+#boxes .box img{
+  width:80px;
+}
+
+/* footer */
+
+footer{
+	width:100%;
+	float: left;
+	margin-top: 50px;
+	background-color: 35424a;
+	padding: 20px;
+	margin-top: 30px;
+	text-align: center;
+	color: #ffffff;
+	border-top: #A2E6FD 3px solid;
+
+}
